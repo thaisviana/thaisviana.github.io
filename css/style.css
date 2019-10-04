@@ -593,13 +593,19 @@ body:after {
     font-family: "Arbutus Slab", serif; }
   .site-blocks-cover .img-face {
     position: absolute;
+    left: 0;
     /*right: -5%;*/
     bottom: 0;
     z-index: 1;
     width: 100%; }
     @media (max-width: 991.98px) {
       .site-blocks-cover .img-face {
-        right: -0%; } }
+        transform: rotate(-90deg); } 
+        h1.text-white-opacity-05{
+          color: rgba(0, 0, 0, 0.5); 
+        }
+
+      }
 
 .section-title {
   position: relative;
